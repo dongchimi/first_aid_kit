@@ -1,0 +1,48 @@
+{
+  "name": "first_aid_kit",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "dklee",
+  "license": "MIT",
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --config webpack.config.js --watch --mode development",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "file-loader": "^4.2.0",
+    "mobx": "^5.14.0",
+    "mobx-react": "^6.1.3",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.10.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

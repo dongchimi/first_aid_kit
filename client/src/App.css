@@ -1,0 +1,72 @@
+@import "assets/css/app.bundle.css";
+
+.App {
+    /*text-align: center;*/
+}
+
+
+.page-logo img {
+    width: 25px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.App-sidebar {
+    width: 280px;
+    display: flex;
+    z-index: 11;
+    overflow: hidden;
+    min-width: 280px;
+    position: relative;
+    flex: 0 0 280px;
+    height: 100%;
+    transition: all .2s;
+    /*background-color: #61dafb;*/
+    border-right: 1px solid lightgray;
+    float: left;
+}
+
+.App-main {
+    position: relative;
+}
+
+.App-content {
+    position: relative;
+    margin-left: 280px;
+    background-color: bisque;
+}
+
+.app-content-body {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid lightgray;
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
